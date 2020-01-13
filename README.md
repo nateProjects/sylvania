@@ -47,15 +47,13 @@ essential elements together. You must collect 4 jewels from ­ mountains, cavern
 
 * So, If you change clothes with fisherman (& suggest he lead guards away)
 * Then can chop wood and bring it back to boat and fix it
-* He takes you to spot but you can't dive long enough because you don't have bladder
-* (reed will let you breath for a while - maybe long enough to find out why) 
+* He takes you to spot but you can't dive long enough because you don't have bladder (reed will let you breath for a while - maybe long enough to find out why) 
 * To get bladder ... have to get wild boar from Butcher - gross? (but molemen have taken local boars?) 
 * To get boars from molemen ... (Perhaps in only above ground part / fenced in / break out without being attacked / camoflage)
 
 * When have boar take to butcher and get bladder
 * Take bladder to fisherman who turns it into breathing apparatus
-* Visit mermen who tell you you can have jewel if you rescue mermaid
-* (mermaid is being held by octopus) 
+* Visit mermen who tell you you can have jewel if you rescue mermaid (mermaid is being held by octopus) 
 * Get spear ... (Maybe get from guard who drops it - or guard at castle, or suit of armor) 
 * Spear between eyes (Capture ink for some reason?) 
 * Collect pearl - you have the first jewel!
