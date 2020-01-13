@@ -57,10 +57,10 @@ essential elements together. You must collect 4 jewels from ­ mountains, cavern
 * Spear between eyes (Capture ink for some reason?) 
 * Collect pearl - you have the first jewel!
 
-Qs -
+Questions -
 
 * Where and how to get Axe?
-* Alt. to Boar bladder?
+* Alternatives to Boar bladder? - seems like a weird solution to breath underwater
 
 #### To get Jewel of Sky
 
@@ -70,7 +70,7 @@ Qs -
 * But then have to color it - where to find or make paint
 * And get bird away long enough to swap it out - how to scare away? (If get bird away but don't swap will come after you and take egg back - after killing you) * Distract with something shinny - make shell ornament? collect enough
 
-Qs -
+Questions -
 
 * Where to get elements for grappling hook?
 * Where and how to get egg shaped object?
@@ -87,7 +87,7 @@ Qs -
 * Maybe have to find / make alternative route out (because entrance blocked)
 * Could use sounds to disorient them - what with?
 
-Qs -
+Questions -
 
 * Where to get robe from? Monk?
 * How to divert stream? Block it up, but how?
@@ -103,7 +103,7 @@ Qs -
 * Have to prove purity of heart?
 * (Could do this by rescuing mayor's daughter from mole men)
 
-Qs -
+Questions -
 
 * How do you discover what this jewel is? Reward?
 * Sub-story about friend? Helping them?
