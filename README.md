@@ -1,15 +1,15 @@
 # Sylvania
 
-Interactive Fiction Game
+An Interactive Fiction Game
+
+(From my teen imagination)
 
 ## Plot
 
-You are a tree elf, heir to the kingdom. Your father has died unexpectedly and you have been
-blamed for it! However, you suspect your uncle has framed you for your father’s murder. A
-shaman saves you in the only way he can ­ trial by ordeal.
+You are a tree elf, heir to the kingdom. Your father has died unexpectedly and you have been blamed for it! However, you suspect your uncle has framed you for your father’s murder. A shaman saves you in the only way he can ­ trial by ordeal.
 
 To prove your innocence you are given a trial by ordeal ­ the impossible task of uniting the four
-essential elements together. You must collect 4 jewels from ­mountains, caverns, village, and sea.
+essential elements together. You must collect 4 jewels from ­ mountains, caverns, village, and sea.
 
 ## Characters
 
