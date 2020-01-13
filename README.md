@@ -42,8 +42,7 @@ essential elements together. You must collect 4 jewels from ­ mountains, cavern
 * Have to get wood from forest
 * But guards will stop you going in
 * Get axe from ? - maybe have to buy, and to earn money you must ...
-* To distract guards need to get someone to dress as you
-* (can be fisherman - may be man in village - if do him favor - need younger man who can outrun guards - maybe old man will try but fail))
+* To distract guards need to get someone to dress as you (can be fisherman - may be man in village - if do him favor - need younger man who can outrun guards - maybe old man will try but fail))
 
 * So, If you change clothes with fisherman (& suggest he lead guards away)
 * Then can chop wood and bring it back to boat and fix it
@@ -69,8 +68,7 @@ Qs -
 * Have to swap out something egg shaped in nest
 * Must find right thing
 * But then have to color it - where to find or make paint
-* And get bird away long enough to swap it out - how to scare away?
-* (If get bird away but don't swap will come after you and take egg back - after killing you) * Distract with something shinny - make shell ornament? collect enough
+* And get bird away long enough to swap it out - how to scare away? (If get bird away but don't swap will come after you and take egg back - after killing you) * Distract with something shinny - make shell ornament? collect enough
 
 Qs -
 
