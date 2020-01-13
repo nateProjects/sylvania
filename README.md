@@ -41,13 +41,11 @@ To prove your innocence you are given a trial by ordeal ­ the impossible task o
 * But guards will stop you going in
 * Get axe from ? - maybe have to buy, and to earn money you must ...
 * To distract guards need to get someone to dress as you (can be fisherman - may be man in village - if do him favor - need younger man who can outrun guards - maybe old man will try but fail)
-
 * So, If you change clothes with fisherman (& suggest he lead guards away)
 * Then can chop wood and bring it back to boat and fix it
 * He takes you to spot but you can't dive long enough because you don't have bladder (reed will let you breath for a while - maybe long enough to find out why) 
 * To get bladder ... have to get wild boar from Butcher - gross? (but molemen have taken local boars?) 
 * To get boars from molemen ... (Perhaps in only above ground part / fenced in / break out without being attacked / camoflage)
-
 * When have boar take to butcher and get bladder
 * Take bladder to fisherman who turns it into breathing apparatus
 * Visit mermen who tell you you can have jewel if you rescue mermaid (mermaid is being held by octopus) 
