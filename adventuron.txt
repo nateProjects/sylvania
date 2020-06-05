@@ -5,29 +5,29 @@ story_info {
 start_at = "clearing"
 
 locations {
-  clearing : location "There is a room called Clearing.";
-  plateau : location "There is a room called Plateau.";
-  mountainside : location "There is a room called Mountainside.";
-  valley : location "There is a room called Valley.";
-  copse : location "There is a room called Copse.";
-  treevillage : location "There is a room called Tree Village.";
-  meeting : location "There is a room called Meeting Place.";
-  throne : location "There is a room called Throne Room.";
-  hut : location "There is a room called Hut.";
-  beach : location "There is a room called Beach.";
-  sea : location "There is a room called Sea.";
-  undersea : location "There is a room called Undersea.";
-  octopus : location "There is a room called Octopus.";
-  pigpen : location "There is a room called Pig Pen.";
-  field : location "There is a room called Farm Field.";
-  hall : location "There is a room called Village Hall.";
-  cave : location "There is a room called Cave Mouth.";
-  nest : location "There is a room called Nest.";
-  gathering : location "There is a room called Gathering Place.";
-  butcher : location "There is a room called Butcher.";
-  commons : location "There is a room called Commons.";
-  church : location "There is a room called Church.";
-  chamber : location "There is a room called Ante-Chamber.";
+  clearing : location "Clearing.";
+  plateau : location "Plateau.";
+  mountainside : location "Mountainside.";
+  valley : location "Valley.";
+  copse : location "Copse.";
+  treevillage : location "Tree Village.";
+  meeting : location "Meeting Place.";
+  throne : location "Throne Room.";
+  hut : location "Hut.";
+  beach : location "Beach.";
+  sea : location "Sea.";
+  undersea : location "Undersea.";
+  octopus : location "Octopus.";
+  pigpen : location "Pig Pen.";
+  field : location "Farm Field.";
+  hall : location "Village Hall.";
+  cave : location "Cave Mouth.";
+  nest : location "Nest.";
+  gathering : location "Gathering Place.";
+  butcher : location "Butcher.";
+  commons : location "Commons.";
+  church : location "Church.";
+  chamber : location "Ante-Chamber.";
 }
 
 connections {
