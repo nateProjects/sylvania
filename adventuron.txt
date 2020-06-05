@@ -1,0 +1,94 @@
+story_info {
+   intro_text = You are a tree elf, heir to the kingdom. Your father has died unexpectedly and you have been blamed for it! However, you suspect your uncle has framed you for your father’s murder. A shaman saves you in the only way he can: trial by ordeal. To prove your innocence you are given a trial by ordeal - the impossible task of uniting the four essential elements together. You must collect 4 jewels from - mountains, caverns, village, and sea.
+}
+
+start_at = "clearing"
+
+locations {
+  clearing : location "There is a room called Clearing.";
+  plateau : location "There is a room called Plateau.";
+  mountainside : location "There is a room called Mountainside.";
+  valley : location "There is a room called Valley.";
+  copse : location "There is a room called Copse.";
+  treevillage : location "There is a room called Tree Village.";
+  meeting : location "There is a room called Meeting Place.";
+  throne : location "There is a room called Throne Room.";
+  hut : location "There is a room called Hut.";
+  beach : location "There is a room called Beach.";
+  sea : location "There is a room called Sea.";
+  undersea : location "There is a room called Undersea.";
+  octopus : location "There is a room called Octopus.";
+  pigpen : location "There is a room called Pig Pen.";
+  field : location "There is a room called Farm Field.";
+  hall : location "There is a room called Village Hall.";
+  cave : location "There is a room called Cave Mouth.";
+  nest : location "There is a room called Nest.";
+  gathering : location "There is a room called Gathering Place.";
+  butcher : location "There is a room called Butcher.";
+  commons : location "There is a room called Commons.";
+  church : location "There is a room called Church.";
+  chamber : location "There is a room called Ante-Chamber.";
+}
+
+connections {
+  from, direction, to = [
+    clearing,  west,  valley,
+    clearing,  east,  beach,
+    clearing,  north,  copse,
+    clearing,  south,  field,
+    plateau,  south,  mountainside,
+    plateau,  west,  nest,
+#    mountainside,  north,  plateau,
+    mountainside,  south,  valley,
+#    valley,  north,  mountainside,
+#    valley,  east,  clearing,
+    valley,  west,  cave,
+    copse,  north,  treevillage,
+#    copse,  south,  clearing,
+#    treevillage,  south,  copse,
+    meeting,  east,   throne,
+#    throne,  west,  meeting,
+    hut,  south,  beach,
+#    beach,  north,  hut,
+    beach,  east,  sea,
+#    sea,  west,  beach,
+    sea,  south,  undersea,
+#    undersea,  north,  sea,
+    undersea,  south,  octopus,
+#    octopus,  north,  undersea,
+    pigpen,  south,  butcher,
+    pigpen,  west,  field,
+#    field,  north,  clearing,
+    field,  south,  commons,
+#    field,  east,  pigpen,
+    hall, southeast,  commons,
+    cave,  south,  gathering, 
+#    cave,  east,  valley,
+    nest,  southeast,  mountainside, 
+    gathering,  south, chamber, 
+#    gathering,  north,  cave
+    butcher,  west,  commons,
+#    butcher,  north,  pigpen,
+    commons,  west,  church,
+    commons,  northeast,  hall,
+#    commons,  north,  field,
+#    commons,  east,  butcher,
+#    church,  east,  commons,
+    chamber,  east,  church, 
+#    chamber,  north,  gathering, 
+  ]
+}
+
+objects {
+  choppedwood : object  "Chopped Wood"  start_at="copse";
+  crown : object  "Crown"  start_at="throne";
+  reed : object  "Reed"  start_at="beach";
+  pearl : object  "Pearl"  start_at="octopus";
+  lantern : object  "Lantern"  start_at="pigpen";
+  marble : object  "Marble Sphere"  start_at="hall";
+  rope : object  "Rope"  start_at="cave";
+  egg : object  "Egg"  start_at="nest";
+  bladder : object  "Bladder"  start_at="butcher";
+  robe : object  "Robe"  start_at="church";
+  crystal : object  "Crystal"  start_at="chamber";
+}
