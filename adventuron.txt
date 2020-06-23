@@ -80,6 +80,7 @@ connections {
 }
 
 objects {
+  horn : object "Horn" start_at="clearing";
   choppedwood : object  "Chopped Wood"  start_at="copse";
   crown : object  "Crown"  start_at="throne";
   reed : object  "Reed"  start_at="beach";
@@ -91,4 +92,13 @@ objects {
   bladder : object  "Bladder"  start_at="butcher";
   robe : object  "Robe"  start_at="church";
   crystal : object  "Crystal"  start_at="chamber";
+}
+
+on_command {
+  : match "blow horn" {
+    : if (is_carried "horn") {
+      : print   "It sounds as if a cow is dying.";
+      : destroy "horn";
+      }
+    }
 }
