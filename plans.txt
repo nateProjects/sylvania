@@ -1,0 +1,49 @@
+PLANS
+
+Implement tasks / puzzles
+Implement text
+Implement scoring
+Add sub-quests?
+
+What don't I know how to do -
+
+barriers based on held objects
+
+https://adventuron.io/documentation/#QuickStartBarriers
+
+combine / attach objects
+
+timed / turn-based events
+- like drowing (or being forced to surface)
+
+maybe - townsman who follows you
+
+maybe - goto location if not already been there
+
+: goto "";
+
+still like idea of elf having to disguise self - like to get into place
+
+change some system messages
+
+graphics
+
+walkthrough text & video
+
+is_present
+is_treasure
+is_locked
+is_blocking
+
+---
+
+LOCATION BASED COMMANDS -
+
+locations {
+   bottom_of_hill : location "You are standing at the bottom of the hill." {
+
+      on_command {
+         // Local command handlers here
+      }
+
+can get rid of checking if present

@@ -1,0 +1,136 @@
+    Done
+S,E,N
+TALK MAN
+S,W,N
+CHOP TREE
+TAKE WOOD
+S,E,N
+GIVE WOOD
+S
+
+Man need to tell you about jewel of the sea
+should you ask specifically about it?
+    Maybe he could tell you in future to ask people about stuff
+
+TALK TO SHORE PEOPLE
+W,W,W
+OPEN GATE
+TIE BOAR
+E,E,E
+GIVE BOAR
+TAKE SHELL (or given it)
+(in church? or ante-chamber? or change butcher to keep)
+W,S,S,E
+TAKE SPEAR (or TRADE BOAR FOR SPEAR)
+W,N,N,E
+ENTER BOAT (E)
+DIVE (D)
+FIGHT CLAM / PRY CLAM
+TAKE PEARL
+SURFACE / resurface (U)
+LEAVE BOAT (W)
+
+  : match "ask shorewoman" {
+    : if (is_at "beach") {
+      : if (has_not_created "shell") {
+        : print   "You tell them about their quest";
+      }
+    }
+  }
+
+synonyms - beach, shore
+  villager,shorewoman,shoreperson
+
+---
+
+https://intfiction.org/t/adventuron-dealing-with-synonymous-commands-in-match-statements/46482/2
+
+
+---
+
+vocabulary {
+  : verb      / aliases = [chop, cut, fell, axe]
+  : noun      / aliases = [tree, trees, wood]
+
+  : verb      / aliases = [ask, talk, speak, converse, chat]
+}
+
+---
+
+if boat hasn't been fixed description is -
+
+There is an old fisherman here lamenting the hole in the side of his small boat (which he has brought into his home).
+
+if boat has been fixed -
+(if boat object is not there?)
+
+The fisherman is gone, perhaps to go fishing.
+
+is it hull that he is fixing?
+
+TO DO
+
+add - goto / go - if have visted place before
+
+need to account for - 
+  : if (is_carried "axe") {
+    if he is not there - is_present
+
+is a man a non-takeable object?
+
+Need to force player back to surface if tries to dive without shell -
+maybe just auto message (keep in boat)
+
+Change Butcher & Pig Pen?
+To Keep?
+Or could trade Butcher for Spear
+
+Take out reed - will have shell instead
+
+Where does horn come from?
+
+Should the player chop the wood down?
+
+Need to add something if verb can't be used in place
+    such as talking to someone who isn't there
+
+
+
+on_startup {
+   : print "Welcome to the world of nuts and bolts !!!!";
+   : press_any_key ;
+}
+
+
+story_info {
+   intro_text = You are a tree elf, heir to the kingdom. Your father has died unexpectedly and you have been blamed for it! However, you suspect your uncle has framed you for your father’s murder. A shaman saves you in the only way he can: trial by ordeal. To prove your innocence you are given a trial by ordeal - the impossible task of uniting the four essential elements together. You must collect 4 jewels from - mountains, caverns, village, and sea.
+}
+
+on_command {
+  : match "blow horn" {
+    : if (is_carried "horn") {
+      : print   "It sounds as if a cow is dying.";
+      : destroy "horn";
+      }
+    }
+}
+
+---
+
+When done at least release web & ZX Spectrum version
+
+Could use Adventuron (PAW/DAAD) or Inform -
+
+https://www.seasip.info/ZX/zxzvm.html
+
+https://github.com/johanberntsson/ozmoo
+
+http://www.cpcwiki.eu/index.php/Z-Machine
+
+https://github.com/daad-adventure-writer/DRC/wiki
+
+? https://github.com/ByteProject/Metrocenter84
+
+https://github.com/johanberntsson/PunyInform
+
+BBC, CPC
