@@ -17,7 +17,7 @@ W,W,W
 OPEN GATE
 TIE BOAR
 E,E,E
-GIVE BOAR
+GIVE BOAR - but what if giving boar to butcher for spear?
 TAKE SHELL (or given it)
 (in church? or ante-chamber? or change butcher to keep)
 W,S,S,E
@@ -37,6 +37,11 @@ LEAVE BOAT (W)
       }
     }
   }
+
+is ispresent ladder
+match examine ladder
+
+force redescribe after chop wood?
 
 synonyms - beach, shore
   villager,shorewoman,shoreperson

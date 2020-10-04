@@ -1,20 +1,41 @@
 PLANS
 
-Implement tasks / puzzles
-Implement text
+Decide tasks / puzzles
+    jewel of sea
+    jewel of earth
+    jewel of sky
+    jewel of spirit / life / man
+Virtual Walkthrough
+Implement Code
+Testing tasks
+Add text
+    inc. scenery / examine text
 Implement scoring
+Implement tutorial / help
 Add sub-quests?
+Get playtested
+
+---
+
+examine
+
+: if_examine "red_fish" {
+   : print "IT STINKS!" ;
+}
 
 What don't I know how to do -
 
 barriers based on held objects
 
 https://adventuron.io/documentation/#QuickStartBarriers
+block_when_not
 
 combine / attach objects
 
 timed / turn-based events
 - like drowing (or being forced to surface)
+
+what about "ask x about y"
 
 maybe - townsman who follows you
 
@@ -27,6 +48,8 @@ still like idea of elf having to disguise self - like to get into place
 change some system messages
 
 graphics
+
+loading_screen = excalibur_loading
 
 walkthrough text & video
 
