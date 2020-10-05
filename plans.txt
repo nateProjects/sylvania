@@ -1,5 +1,17 @@
 PLANS
 
+TO DO
+
+Change Pig Pen to Blacksmith - change directions
+Add Townsman in exile (or temp. get hat at location)
+Add barriers to town (no hat = no enter)
+Add Boar puzzle
+Add diving conditions
+
+Note: like idea of merman saying to you you have to show you are ready to defeat creature first before getting special shell
+
+OVERALL
+
 Decide tasks / puzzles
     jewel of sea
     jewel of earth

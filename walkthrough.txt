@@ -19,6 +19,7 @@ TIE BOAR
 E,E,E
 GIVE BOAR - but what if giving boar to butcher for spear?
 TAKE SHELL (or given it)
+  or have to get harpoon to get shell
 (in church? or ante-chamber? or change butcher to keep)
 W,S,S,E
 

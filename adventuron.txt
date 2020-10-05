@@ -31,7 +31,7 @@ locations {
   sea : location "Sea.";
   undersea : location "Undersea.";
   octopus : location "Octopus.";
-  pigpen : location "Pig Pen.";
+  blacksmith : location "Blacksmith.";
   field : location "Farm Field.";
   hall : location "Village Hall.";
   cave : location "Cave Mouth.";
@@ -69,8 +69,7 @@ connections {
 #    undersea,  north,  sea,
     undersea,  south,  octopus,
 #    octopus,  north,  undersea,
-    pigpen,  south,  butcher,
-    pigpen,  west,  field,
+    blacksmith,  west,  field,
 #    field,  north,  clearing,
     field,  south,  commons,
 #    field,  east,  pigpen,
@@ -95,17 +94,18 @@ connections {
 objects {
   horn : object "Horn" start_at="clearing";
   wood : object  "Chopped Wood";
-  crown : object  "Crown"  start_at="throne";
-  reed : object  "Reed"  start_at="beach";
+#  crown : object  "Crown"  start_at="throne";
+  shell : object  "Shell"  start_at="beach";
   pearl : object  "Pearl"  start_at="octopus";
-  lantern : object  "Lantern"  start_at="pigpen";
-  marble : object  "Marble Sphere"  start_at="hall";
+  hook : object  "Hook"  start_at="blacksmith";
+#  marble : object  "Marble Sphere"  start_at="hall";
   rope : object  "Rope"  start_at="cave";
   egg : object  "Egg"  start_at="nest";
-  bladder : object  "Bladder"  start_at="butcher";
+  spear : object  "Spear"  start_at="butcher";
   robe : object  "Robe"  start_at="church";
   crystal : object  "Crystal"  start_at="chamber";
   axe : object "Axe";
+  hat : object "Hat"  start_at="clearing";
 }
 
 on_command {
