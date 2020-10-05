@@ -7,13 +7,23 @@ TAKE WOOD
 S,E,N
 GIVE WOOD
 S
+TALK TO PERSON - *not there before, maybe speaking to man after boat fixed
+W,W,W
+TALK TO MAN - maybe he initiates conversation
+(player may be likely to go to town first etc.)
 
-Man need to tell you about jewel of the sea
+
+Notes
+
+Man needs to tell you about jewel of the sea (maybe after you tell him of plight)
 should you ask specifically about it?
     Maybe he could tell you in future to ask people about stuff
 
+What if encounter man - don't put in clearing, maybe put nearer boar - in Valley - asks for help
+
 TALK TO SHORE PEOPLE
-W,W,W
+
+W,W,W - does this go through clearing?
 OPEN GATE
 TIE BOAR
 E,E,E

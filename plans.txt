@@ -2,13 +2,19 @@ PLANS
 
 TO DO
 
-Change Pig Pen to Blacksmith - change directions
-Add Townsman in exile (or temp. get hat at location)
+X Change Pig Pen to Blacksmith - change directions - remove pig pen n/s to butcher
+Add seaperson (if boat fixed) - put shell there for now
 Add barriers to town (no hat = no enter)
+Add Townsman in exile (or temp. get hat at location) - add hat to clearing
 Add Boar puzzle
 Add diving conditions
 
 Note: like idea of merman saying to you you have to show you are ready to defeat creature first before getting special shell
+
+Could use lantern / torch with mole people instead of horn for sound?
+Maybe need to get blacksmith to fashion hook - from what, in return for what?
+Take out marble sphere?
+Point out it isn't a real egg in giant eagle nest
 
 OVERALL
 
@@ -28,7 +34,7 @@ Implement tutorial / help
     Add sub-quests?
 Get playtested
 Do graphics
-Do solutiuon / walkthrough / transcript
+Do solution / walkthrough / transcript / map (update) / design overview
 Export to web, ZX Spectrum etc.
 Put in IF database
 
