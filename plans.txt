@@ -4,16 +4,21 @@ Decide tasks / puzzles
     jewel of sea
     jewel of earth
     jewel of sky
-    jewel of spirit / life / man
+    jewel of spirit / life / man?
 Virtual Walkthrough
 Implement Code
+    Move some commands under location
 Testing tasks
 Add text
     inc. scenery / examine text
 Implement scoring
 Implement tutorial / help
-Add sub-quests?
+    Add sub-quests?
 Get playtested
+Do graphics
+Do solutiuon / walkthrough / transcript
+Export to web, ZX Spectrum etc.
+Put in IF database
 
 ---
 
@@ -70,3 +75,38 @@ locations {
       }
 
 can get rid of checking if present
+
+---
+
+Scoring
+
+Point for each object
+Points for each place
+Points for each task (x10?)
+Points of each jewel (x30?)
+
+---
+
+When done at least release web & ZX Spectrum version
+
+Could use Adventuron (PAW/DAAD) or Inform -
+
+https://eeyo.io/adventuron2paw/Adventuron2PawUserGuide.pdf
+
+https://github.com/daad-adventure-writer/antur
+
+https://spectrumcomputing.co.uk/forums/viewtopic.php?t=1779
+
+https://www.seasip.info/ZX/zxzvm.html
+
+https://github.com/johanberntsson/ozmoo
+
+http://www.cpcwiki.eu/index.php/Z-Machine
+
+https://github.com/daad-adventure-writer/DRC/wiki
+
+? https://github.com/ByteProject/Metrocenter84
+
+https://github.com/johanberntsson/PunyInform
+
+BBC, CPC, MSX, Amiga, Atari ST and DOS, PCW, CBM

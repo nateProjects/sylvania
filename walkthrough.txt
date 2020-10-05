@@ -21,14 +21,85 @@ GIVE BOAR - but what if giving boar to butcher for spear?
 TAKE SHELL (or given it)
 (in church? or ante-chamber? or change butcher to keep)
 W,S,S,E
-TAKE SPEAR (or TRADE BOAR FOR SPEAR)
+
+To enter town need to cover elf ears
+    Perhaps you need to do this to get in town at all
+Meet exiled human - he will help you if you help him - gives hat
+He was one tending to boar when it was stolen
+He is in good favour if you return boar & tell story
+    (Account for all these different orders and possibilities - 
+    such as if get boar independently, maybe butcher mentions)
+Maybe he is one who can pick lock / or maybe it's just a two man job
+    He gives you hat
+    When you have hat you can enter town
+
+TAKE SPEAR (or TRADE BOAR FOR SPEAR) - can't until can enter town
 W,N,N,E
 ENTER BOAT (E)
 DIVE (D)
-FIGHT CLAM / PRY CLAM
-TAKE PEARL
+FIGHT CLAM / PRY CLAM - lose spear after this
+    Maybe there is squid and clam
+TAKE PEARL & TENTACLE
 SURFACE / resurface (U)
 LEAVE BOAT (W)
+
+maybe they give you clue to next jewel
+
+---
+
+Jewel of Sky -
+
+Try to climb mountain - can't quite make it - if only you had something you could throw up a little further that would latch on
+Maybe man pays you for fixing boat
+This gives you money to get hook from Blacksmith
+(if try to spend it at butcher hit brings up quest or says he is sold out - maybe even closes up for the day)
+You get rope from boar that was tied up
+Attach rope to hook
+Climb up mountain / see eagles nest / it attacks if you try to take egg
+    - if it doesn't see an egg there it will attack
+? Go to church -  Get ceremonial egg - maybe have to distract priest - burn curtain? maybe Paint?
+Or use Tentacle / or maybe Snake Skin to scare away Eagle
+
+Can't complete without doing Jewel Of Sea quest?
+
+---
+
+Jewel Of Earth -
+
+Get monk's robe from church & wear it
+    What stands in the way of this?
+Try to enter - they smell that something isn't right
+Roll in mud (or put robe in mud)
+Then can enter
+    Need to pour water on lava or make bridge over it
+    Or damn up stream to divert water
+Steal jewel
+    is it that easy? Do you have to distract them first? Loud noise?
+Need to find another way out - or they take back jewel and throw you out?
+    How to open alternative exit
+        maybe sound causes rockfall?
+
+Maybe horn makes sound - maybe he is given it at the start, meant to play it when completed quest
+
+---
+
+Human friend - Jewel of Spirit
+
+When he is in good favour he can show you where jewel is
+    Pick jewel you are most likely to get nearest to the end
+But can't get it unless do X
+    Maybe until you show other jewel which chief tries to steal, but friend intervenes - becomes exiled again - but ultimately becomes right hand man in your kingdom
+
+maybe just leave out Jewel of Spirit - just make it three jewels!
+
+Questions -
+
+maybe have to at least deal with boar to get to cave mouth - or boar will stop you
+
+or perhaps boar roams around and you have to catch it
+(love idea of trapping it - but adds even more to game)
+
+---
 
   : match "ask shorewoman" {
     : if (is_at "beach") {
@@ -119,23 +190,3 @@ on_command {
       }
     }
 }
-
----
-
-When done at least release web & ZX Spectrum version
-
-Could use Adventuron (PAW/DAAD) or Inform -
-
-https://www.seasip.info/ZX/zxzvm.html
-
-https://github.com/johanberntsson/ozmoo
-
-http://www.cpcwiki.eu/index.php/Z-Machine
-
-https://github.com/daad-adventure-writer/DRC/wiki
-
-? https://github.com/ByteProject/Metrocenter84
-
-https://github.com/johanberntsson/PunyInform
-
-BBC, CPC

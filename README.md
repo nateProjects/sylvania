@@ -49,7 +49,7 @@ To prove your innocence you are given a trial by ordeal ­ the impossible task o
 * When have boar take to butcher and get bladder
 * Take bladder to fisherman who turns it into breathing apparatus
 * Visit mermen who tell you you can have jewel if you rescue mermaid (mermaid is being held by octopus) 
-* Get spear ... (Maybe get from guard who drops it - or guard at castle, or suit of armor) 
+* Get spear ... (Maybe get from guard who drops it - or guard at castle, or suit of armor)
 * Spear between eyes (Capture ink for some reason?) 
 * Collect pearl - you have the first jewel!
 

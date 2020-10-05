@@ -11,7 +11,7 @@ game_information {
 }
 
 on_startup {
-   : print "You are a tree elf, heir to the kingdom. Your father has died unexpectedly and you have been blamed for it! However, you suspect your uncle has framed you for your father’s murder. A shaman saves you in the only way he can: trial by ordeal. To prove your innocence you are given the seemingly impossible task of uniting the four essential elements together: You must collect 4 lost jewels: one from the mountains, caverns, village, and sea. Press any key to continue on your quest.";
+   : print "You are a tree elf, heir to the kingdom. Your father has died unexpectedly and you have been blamed for it! However, you suspect your uncle has framed you for your father’s murder. A shaman saves you in the only way he can: trial by ordeal. To prove your innocence you are given the seemingly impossible task of uniting the three essential elements together: You must collect 3 lost jewels: one from the mountains, caverns, and sea. Press any key to continue on your quest.";
    : press_any_key ;
 }
 
