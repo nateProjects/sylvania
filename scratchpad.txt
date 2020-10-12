@@ -1,0 +1,67 @@
+Scratchpad
+
+Quick -
+
+add tentacle - do you need to use axe to cut? (too much cutting already! don't let you take axe in sea - will rust it)
+    create when stab
+
+give boar to butcher
+create spear
+
+Exile
+
+say something about hat & helping him free boar
+
+have him follow to where boar is
+    maybe have him there to begin with!
+
+Boar
+
+Need to get exile to distract boar or he won't let you cut rope
+    exile should say something about molepeople
+
+can't free unless -
+a) have axe
+b) exile there - if there to begin with easier
+
+  : match "cut rope" {
+    : if (is_at "valley") {
+      : if (is_carried "axe") {
+        : print   "Stuff here.";
+
+if already used axe on wood
+
+        : destroy "axe";
+
+add boar at the end of a rope to inventory & say something about it
+
+      }
+    }
+  }
+
+---
+
+DONE
+
+Add exile
+
+try adding him as an object -
+
+objects {
+   townsman : scenery "A Townsman";
+}
+
+
+Block Town to Hat
+
+https://adventuron.io/documentation/#QuickStartBarriers
+block_when_not
+
+barriers {
+   mines_block : block {
+     block_when_not_worn = hat
+     location = commons
+     message = They point to your ears and throw you out!
+   }
+}
+

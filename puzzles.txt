@@ -3,55 +3,62 @@
 
    events {
    
-      jewel_of_the_sea : condition;
-   
-      carrying_spear : action {
-         depends_on  = [ returned_boar ]
+      boat : condition;
+
+      speak_to_man : action {
+         depends_on = [ boat ]
       }
-      returned_boar : action {
-         depends_on = [ stole_boar ]
+      get_axe : action {
+         depends_on = [ speak_to_man ]
       }
-      stole_boar : action {
-         depends_on = [ spoke_to_butcher ]
+      chop_wood : action {
+         depends_on = [ get_axe ]
       }
-      spoke_to_butcher : action {
-         depends_on = [ failed_to_defeat_creature ]
+      give_wood : action {
+         depends_on = [ chop_wood ]
       }
-      failed_to_defeat_creature : action {
-         depends_on = [ dived_with_shell ]
+      fix_boat : goal {
+         depends_on = [ give_wood ]
       }
-      dived_with_shell : action {
-         depends_on = [ gave_something_to_shorewoman ]
+
+      spear : condition;
+
+      talk_to_exile : action {
+         depends_on = [ spear ]
       }
-      gave_something_to_shorewoman : action {
-         depends_on = [ fulfilled_mini_quest ]
+      cut_rope : action {
+         depends_on = [ talk_to_exile ]
       }
-      fulfilled_mini_quest : action {
-         depends_on = [ spoke_to_shorewoman_after_fixing_boat ]
+      take_hat : action {
+         depends_on = [ cut_rope ]
       }
-      spoke_to_shorewoman_after_fixing_boat : action {
-         depends_on = [ trying_to_dive ]
+      wear_hat : action {
+         depends_on = [ take_hat ]
       }
-      trying_to_dive : action {
-         depends_on = [ fixing_boat ]
+      give_boar_to_butcher : action {
+         depends_on = [ wear_hat ]
       }
-      fixing_boat : action {
-         depends_on = [ giving_wood ]
+      take_spear : goal {
+         depends_on = [ give_boar_to_butcher ]
       }
-      giving_wood : action {
-         depends_on = [ chopping_wood ]
+
+      jewel : condition;
+
+      enter_boat : action {
+         depends_on = [ jewel, fix_boat ]
       }
-      chopping_wood : action {
-         depends_on = [ getting_axe ]
+      dive : action {
+         depends_on = [ enter_boat ]
       }
-      getting_axe : action {
-         depends_on = [ speaking_to_man ]
+      fight_octopus : action {
+         depends_on = [ dive, take_spear ]
       }
-      speaking_to_man : action {
-         depends_on = [ jewel_of_the_sea ]
+      take_pearl : goal {
+         depends_on = [ fight_octopus ]
       }
-      get_jewel_of_the_sea : goal {
-         depends_on = [ carrying_spear ]
+      take_tentacle : action {
+         depends_on = [ fight_octopus ]
       }
+
    }
 }

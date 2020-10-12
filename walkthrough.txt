@@ -6,7 +6,31 @@ CHOP TREE
 TAKE WOOD
 S,E,N
 GIVE WOOD
-S
+S - fisherwoman now here (next time you visit)
+    borrow net?
+W,W,W
+
+talk to exile
+    tells story
+    will help elf if he helps him
+W
+give net
+cut rope
+E
+take hat
+wear hat
+S,S,E
+give boar (to butcher)
+take spear
+enter boat (& set off)
+dive
+fight octopus
+take pearl
+take tentacle
+
+    maybe add back shell
+
+
 TALK TO PERSON - *not there before, maybe speaking to man after boat fixed
 W,W,W
 TALK TO MAN - maybe he initiates conversation
@@ -182,16 +206,6 @@ Need to add something if verb can't be used in place
     such as talking to someone who isn't there
 
 
-
-on_startup {
-   : print "Welcome to the world of nuts and bolts !!!!";
-   : press_any_key ;
-}
-
-
-story_info {
-   intro_text = You are a tree elf, heir to the kingdom. Your father has died unexpectedly and you have been blamed for it! However, you suspect your uncle has framed you for your father’s murder. A shaman saves you in the only way he can: trial by ordeal. To prove your innocence you are given a trial by ordeal - the impossible task of uniting the four essential elements together. You must collect 4 jewels from - mountains, caverns, village, and sea.
-}
 
 on_command {
   : match "blow horn" {

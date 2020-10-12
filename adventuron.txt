@@ -92,11 +92,12 @@ connections {
 }
 
 objects {
-  horn : object "Horn" start_at="clearing";
+#  horn : object "Horn" start_at="clearing";
   wood : object  "Chopped Wood";
 #  crown : object  "Crown"  start_at="throne";
-  shell : object  "Shell"  start_at="beach";
+#  shell : object  "Shell"  start_at="beach";
   pearl : object  "Pearl"  start_at="octopus";
+  tentacle : object  "Tentacle";
   hook : object  "Hook"  start_at="blacksmith";
 #  marble : object  "Marble Sphere"  start_at="hall";
   rope : object  "Rope"  start_at="cave";
@@ -104,16 +105,16 @@ objects {
   spear : object  "Spear"  start_at="butcher";
   robe : object  "Robe"  start_at="church";
   crystal : object  "Crystal"  start_at="chamber";
-  axe : object "Axe";
-  hat : object "Hat"  start_at="clearing";
+  axe : object  "Axe";
+  hat : object  "Hat"  wearable="true";
+  townsman : scenery  "Townsman"  start_at="clearing"; 
 }
 
 on_command {
   : match "chop tree" {
     : if (is_at "copse") {
       : if (is_carried "axe") {
-        : print   "The tree falls with a loud crack not far from your feet, but the old axe is broken in the process.";
-        : destroy "axe";
+        : print   "The tree falls with a loud crack not far from your feet.";
         : create "wood" target = "copse" ;
       }
     }
@@ -136,13 +137,21 @@ on_command {
     }
   }
 
-  : match "blow horn" {
-    : if (is_carried "horn") {
-      : print   "It sounds as if a cow is dying.";
-      : destroy "horn";
-      }
-    }
 }
+
+barriers {
+   village_warn : block {
+     block_when_not_worn = hat
+     location = blacksmith
+     message = I wouldn't go South if I was you.
+     }
+   village_block : block {
+     block_when_not_worn = hat
+     location = commons
+     message = They point to your ears and throw you out!
+   }
+}
+// Fix text at some point
 
 vocabulary {
   : verb      / aliases = [give, offer]

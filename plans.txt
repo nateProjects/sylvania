@@ -3,11 +3,30 @@ PLANS
 TO DO
 
 X Change Pig Pen to Blacksmith - change directions - remove pig pen n/s to butcher
-Add seaperson (if boat fixed) - put shell there for now
-Add barriers to town (no hat = no enter)
-Add Townsman in exile (or temp. get hat at location) - add hat to clearing
+X Add barriers to town (no hat = no enter)
+
 Add Boar puzzle
+
+? Add seaperson (if boat fixed) - put shell there for now
+? Add Townsman in exile (or temp. get hat at location) - add hat to clearing
 Add diving conditions
+
+REMEMBER TO ADD
+
+If axe is used twice is destroyed!
+If you attempt to go west boar gets in way
+Blacksmith - maybe he warns elf about locals
+Commons - blocked completely - reaction of locals
+
+Exile 
+Odd hat
+He needs to say -
+He would have once not had anything to do with an elf, but now knows what it feels like to be an outcast
+Dialogue -
+You tell him of your plight, and discover that he too is an outcast
+
+
+MISC
 
 Note: like idea of merman saying to you you have to show you are ready to defeat creature first before getting special shell
 
